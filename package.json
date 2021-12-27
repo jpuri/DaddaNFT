@@ -1,0 +1,25 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "nft creation app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "ethereum",
+    "nft"
+  ],
+  "author": "jyotipuri@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.9",
+    "@openzeppelin/contracts": "^4.4.1",
+    "dotenv": "^10.0.0"
+  }
+}
